@@ -122,6 +122,31 @@
   }
 } */
 
+$cs1_primary: #2d4059;
+$cs1_secondary: #ea5455;
+$cs1_third: #decdc3;
+$cs1_fourth: #eeeded;
+
+//color_scheme_two
+// $cs2_primary: #1a2639;
+// $cs2_secondary: #3e4a61;
+// $cs2_third: #c24d2c;
+// $cs2_fourth: #d9dad7;
+
+.root {
+  background-color: $cs1_fourth;
+  min-height: 100vh;
+  padding: 0 0.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar {
+  background-color: $cs1_primary;
+}
+
 .container {
   min-height: 100vh;
   padding: 0 0.5rem;
