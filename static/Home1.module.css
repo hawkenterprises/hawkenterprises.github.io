@@ -122,7 +122,7 @@
   }
 } */
 
-$cs1_primary: #2d4059;
+/* $cs1_primary: #2d4059;
 $cs1_secondary: #ea5455;
 $cs1_third: #decdc3;
 $cs1_fourth: #eeeded;
@@ -131,10 +131,10 @@ $cs1_fourth: #eeeded;
 // $cs2_primary: #1a2639;
 // $cs2_secondary: #3e4a61;
 // $cs2_third: #c24d2c;
-// $cs2_fourth: #d9dad7;
+// $cs2_fourth: #d9dad7; */
 
 .root {
-  background-color: $cs1_fourth;
+  background-color: #eeeded;
   min-height: 100vh;
   padding: 0 0.5rem;
   display: flex;
@@ -144,7 +144,7 @@ $cs1_fourth: #eeeded;
 }
 
 .navbar {
-  background-color: $cs1_primary;
+  background-color: #2d4059;
 }
 
 .container {
