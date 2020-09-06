@@ -1,0 +1,47 @@
+
+.loginForm{
+    min-height: 100vh;
+    /* padding: 0 0.5rem; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #e5e5e5;
+}
+
+.form{
+    background-image: url("/mosaicbig.svg");
+    border: 2px;
+    border-color: #E0E0E0;
+    border-radius: 5%;
+    padding:10%;
+    border-style: ridge;
+    background-color: #E0E0E0;
+    
+}
+
+.ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+    margin:0;
+    padding:0;
+}
+
+.ul li{
+    margin:0.6em;
+}
+
+.ul input{
+    height: 6vh;
+    max-height:20vh;
+    min-height: 5vh;
+    /* width:10vh; */
+    min-width: 30vh;
+    max-width: 75vh;
+    border-radius:5px;
+    border-width: 1px;
+}
+
