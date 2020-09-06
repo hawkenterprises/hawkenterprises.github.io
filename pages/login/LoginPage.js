@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import styles from '../../static/loginForm.module.css'
+import Button from "../../widgets/Button"
 export default class LoginPage extends Component {
 
     constructor(props) {
@@ -19,21 +20,19 @@ export default class LoginPage extends Component {
                 <form title="User Login" className={styles.form}>
                     <ul className={styles.ul}>
                         <li>
-                            {/* <label>Username/Email:</label> */}
                             <input type="text"
                                 onChange={e => this.onUsernameChangeHandler(e.target.value)}
                                 value={this.state.username}
                                 placeholder={"Username/Email"} />
                         </li>
                         <li>
-                            {/* <label>Password:</label> */}
                             <input type="password"
                                 onChange={e => this.onPasswordChangeHandler(e.target.value)}
                                 value={this.state.password}
                                 placeholder={"password"} />
                         </li>
                         <li>
-                            <button type={"button"} onClick={this.onSublitClick}>Login</button>
+                            <Button type={"button"} onClick={this.onSublitClick}>Login</Button>
                         </li>
                     </ul>
                 </form>
