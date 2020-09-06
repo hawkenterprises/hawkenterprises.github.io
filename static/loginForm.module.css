@@ -1,0 +1,40 @@
+
+.loginForm{
+    min-height: 100vh;
+    /* padding: 0 0.5rem; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.form{
+    border-width: 2px;
+    border: 3em;
+    border-color: #424242;
+    /* margin:1em; */
+}
+
+.ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin:0;
+    padding:0;
+}
+
+.ul li{
+    margin:0.6em;
+}
+
+.ul input{
+    height: 6vh;
+    max-height:20vh;
+    min-height: 5;
+    width:50vh;
+    min-width: 30vh;
+    max-width: 75vh;
+}
+
