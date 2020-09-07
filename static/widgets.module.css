@@ -17,3 +17,30 @@
     color: #FFFFFF;
     background-color: #212121;
   }
+
+@media(min-width: 1000px){
+  .spinner{
+    background-color:#1a2639 ;
+    height: 10%;
+    width:10%;
+    padding:0;
+    margin:0;
+    /* size: 30vh; */
+    padding:0.3em 0.3em 0.3em 0.3em;
+    border: 0.1em solid #1a2639;
+    border-radius: 50%;
+    animation: spin infinite 10s linear;
+  }
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+    /* transform: scale(0.2); */
+  }
+  to {
+    transform: rotate(360deg);
+    /* transform: scale(1); */
+  }
+}
+

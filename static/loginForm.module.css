@@ -14,10 +14,9 @@
     border: 2px;
     border-color: #E0E0E0;
     border-radius: 5%;
-    padding:10%;
+    padding:8%;
     border-style: ridge;
     background-color: #E0E0E0;
-    
 }
 
 .ul{
@@ -38,10 +37,13 @@
     height: 6vh;
     max-height:20vh;
     min-height: 5vh;
-    /* width:10vh; */
-    min-width: 30vh;
-    max-width: 75vh;
+    /* border-color: #ea5455; */
+    width:40vh;
     border-radius:5px;
     border-width: 1px;
+    box-sizing: border-box;
+    transition: 0.4s;
 }
-
+.ul input::after{
+    box-shadow: #ea5455;
+}
